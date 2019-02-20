@@ -1,30 +1,28 @@
 {
-	"prototype": {
-		"useConfigFiles": false,
-		"plugins": {
-			"@vue/cli-plugin-babel": {},
-			"@vue/cli-plugin-eslint": {
-				"config": "base",
-				"lintOn": [
-					"save"
-				]
-			},
-			"vue-cli-plugin-vuetify": {
-				"preset": "configure",
-				"replaceComponents": true,
-				"useTheme": true,
-				"useCustomProperties": false,
-				"iconFont": "mdi",
-				"installFonts": false,
-				"useAlaCarte": true,
-				"usePolyfill": true,
-				"locale": "en"
-			},
-			"eslint-config-vuetify-pascal": {},
-			"vue-cli-plugin-eslint-config-vuetify-pascal": {}
+	"useConfigFiles": false,
+	"plugins": {
+		"@vue/cli-plugin-babel": {},
+		"@vue/cli-plugin-eslint": {
+			"config": "base",
+			"lintOn": [
+				"save"
+			]
 		},
-		"router": true,
-		"routerHistoryMode": false,
-		"vuex": true
-	}
+		"vue-cli-plugin-vuetify": {
+			"preset": "configure",
+			"replaceComponents": true,
+			"useTheme": true,
+			"useCustomProperties": false,
+			"iconFont": "mdi",
+			"installFonts": false,
+			"useAlaCarte": true,
+			"usePolyfill": true,
+			"locale": "en"
+		},
+		"eslint-config-vuetify-pascal": {},
+		"vue-cli-plugin-eslint-config-vuetify-pascal": {}
+	},
+	"router": true,
+	"routerHistoryMode": false,
+	"vuex": true
 }
