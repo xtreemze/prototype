@@ -1,0 +1,8 @@
+{
+  "name": "vue-cli-plugin-vuetify-prototype",
+  "version": "0.0.1",
+  "description": "Preset for rapid prototyping and PascalCase linting with ESLint",
+  "main": "index.js",
+  "author": "Carlos Velasco <carlos@2activedesign.com>",
+  "license": "MIT"
+}
