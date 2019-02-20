@@ -19,7 +19,6 @@
 			"usePolyfill": true,
 			"locale": "en"
 		},
-		"eslint-config-vuetify-pascal": {},
 		"vue-cli-plugin-eslint-config-vuetify-pascal": {}
 	},
 	"router": true,
